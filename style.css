@@ -1,0 +1,174 @@
+/*Custome font for the webside*/
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Black.ttf);
+}
+/*Style for body with the font Roboto*/
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Header backround color and text color*/
+header {
+    background-color: rgb(31, 34, 43);
+    color: white;
+    padding: 20px;
+}
+/*Header logo text size and alignment*/
+header .logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Header navigation bar with alignment*/
+header .nav {
+    margin-top: 10px;
+    text-align: center;
+}
+/*Header navigation color and remove line under text*/
+header .nav a {
+    color: rgb(91, 42, 252);
+    text-decoration: none;
+}
+/*Mein banner color, text color, display flex after content and 
+justify content to make space between content*/
+.main-banner {
+    background-color: rgb(31, 34, 43);
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+/*Controls the max width of text*/
+.main-banner .text-content {
+    max-width: 50%;
+}
+/*Size for the headline on the banner*/
+.main-banner .text-content h1 {
+    font-size: 32px;
+}
+/*Size of text under headline*/
+.main-banner .text-content p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+/*Button color, text color, change cursor to pointer*/
+.main-banner .text-content .btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/*Start of content section with padding and allignmet for text*/
+.content-section {
+    padding: 50px;
+    text-align: center;
+    
+}
+/*Headline for content section, margin and font size*/
+.content-section h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+/*Controls placement of content*/
+.content-section .content {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    gap: 25px;
+    width: 50%;
+}
+/*Boarder around img*/
+.content-section img {
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+/*Quote section backround and text alignemtn*/
+.quote-section {
+    background-color: lightgray;
+    padding: 40px;
+    text-align: center;
+}
+/*Placement for authour's name*/
+.quote-section .author {
+    margin-top: 10px;
+}
+/*SignUp backround color, size, placement, text color, text placement*/
+.signUp-section {
+    background-color: rgb(2, 93, 149);
+    color: white;
+    border: 50px solid white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 60px;
+    font-size: 20px;
+    max-width: 900px;
+    margin:auto;
+}
+/*SignUp button color, text color, border color cursor pointer*/
+.signUp-section .btn {
+    background-color: rgb(2, 93, 149);
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+/*footer style*/
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+/*Style for container for posts in part 2 of the task
+container wraps around text and space between containers*/
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+/*Width of each post style and color*/
+.post {
+    width: 30%;
+    margin: 10px 0; 
+    padding: 15px; 
+    border-radius: 5px;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(221, 221, 221);
+}
+/*Part 3 of the task
+Backround color, text placement*/
+.weather-section {
+    padding: 20px 0;
+    background-color: white;
+    text-align: center;
+}
+/*Container wraps around text and space between containers*/
+.weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+/*card color, border color, style of card and text placement*/
+.weather-card {
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
